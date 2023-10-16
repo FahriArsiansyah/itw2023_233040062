@@ -1,0 +1,27 @@
+body{
+    background-color:aqua;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+h1{
+    font-family: Comic Sans MS;
+    font-size: 60PX;
+    color:darkblue;
+}
+
+h4{
+    text-align: right;
+    font-style: italic;
+}
+
+h3{
+    text-align: left;
+}
+
+.h3boy{
+    color: aliceblue;
+}
+.p1boy{
+    color: rgb(171, 171, 7);
+}
