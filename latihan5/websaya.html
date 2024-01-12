@@ -3,20 +3,78 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Gallery</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/myweb.css">
 </head>
-<style>
-
-</style>
-
 <body>
-    <H1>FAHRI GALERY</H1>
-    <div>
-        <div class= "bacground-image: url('img2/fahri2')" </div>
-        <div class="style"></div>
-        <div class="style"></div>
-        <div class="style"></div>
-        <div class="style"></div>
+    
+    <h1>FAHRI'S GALLERY</h1>
+
+    <div class="container">
+
+        <ul class="gallery">
+            <li>
+                <a href="#gambar-1">
+                  <img class="kecilin" src="galery/img/thumbs/Fahri1.jpg" alt="Fahri miror">
+                  <span>Fahri miror</span>
+                </a>
+                
+                <div class="overlay" id="gambar-1">
+                    <a href="#" class="close">x close</a>
+
+                    <a href="#gambar-4" class="prev">previous</a>
+                    <img src="galery/img/full/Fahri1.jpg" alt="">
+                    <a href="#gambar-2" class="next">next</a>
+                </div>
+            </li>
+            
+            <li>
+                <a href="#gambar-2">
+                    <img class="kecilin" src="galery/img/thumbs/fahri5.jpg" alt="Itadori">
+                    <span>fahri ra</span>
+                </a>
+
+                <div class="overlay" id="gambar-2">
+                    <a href="#" class="close">x close</a>
+                    
+                    <a href="#gambar-1" class="prev">previous</a>
+                    <img src="img2/fahri5.jpg" alt="Itadori">
+                    <a href="#gambar-3" class="next">next</a>
+                </div>
+            </li>
+            <li>
+                <a href="#gambar-3">
+                    <img class="kecilin" src="galery/img/thumbs/Fahri2.jpg" alt="Megumi">
+                    <span>fahri nongkrong</span>
+                </a>
+                
+                <div class="overlay" id="gambar-3">
+                    <a href="#" class="close">x close</a>
+
+                    <a href="#gambar-2" class="prev">previous</a>
+                    <img src="galery/img/full/Fahri2.jpg" alt="Megumi">
+                    <a href="#gambar-4"> 
+                </div>
+            </li>
+            <li>
+                <a href="#gambar-4">
+                    <img class="kecilin" src="galery/img/thumbs/Fahri3.jpg" alt="Nobara">
+                    <span>Fahri nyawah</span>
+                </a>
+                
+                <div class="overlay" id="gambar-4">
+                    <a href="#" class="close">x close</a>
+                    <a href="#gamabar-3" class="prev">previous</a>
+                    <img src="galery/img/full/Fahri3.jpg" alt="Nobara">
+                    <a href="#gambar-1" class="next">next</a>
+                </div>
+            </li>
+
+            <div class="clear"></div>
+        </ul>
     </div>
+
+    
 </body>
 </html>
